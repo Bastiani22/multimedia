@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia en html</title>
+    </head>
+    <body>
+        <div>
+        <h1>aprendiendo a utilizar imagenes</h1>
+        <img src="OIP.jfif" alt="">
+    </div>
+    <div>
+        <h1>aprendiendo a usar videos</h1>
+        <video width="300" height="300" controls autoplay muted loop>
+            <source src="eduardo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <h1>aprendiendo a usar audios</h1>
+        <audio controls autoplay loop>
+            <source src="duki.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    </body>
+</html>
